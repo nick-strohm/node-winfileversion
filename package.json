@@ -1,0 +1,31 @@
+{
+  "name": "node-winfileversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/Release/winfileversion",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-strohm/node-winfileversion.git"
+  },
+  "keywords": [
+    "Windows",
+    "Exe",
+    "Dll",
+    "Version",
+    "Properties"
+  ],
+  "author": "Nick Strohm",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nick-strohm/node-winfileversion/issues"
+  },
+  "homepage": "https://github.com/nick-strohm/node-winfileversion#readme",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.9.2"
+  }
+}
